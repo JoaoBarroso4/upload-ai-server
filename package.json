@@ -8,17 +8,21 @@
   },
   "author": "JoaoBarroso4",
   "license": "ISC",
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "devDependencies": {
     "@types/node": "^20.6.0",
     "dotenv": "^16.3.1",
-    "prisma": "^5.3.0",
+    "prisma": "^5.3.1",
     "tsx": "^3.12.9",
     "typescript": "^5.2.2"
   },
   "dependencies": {
     "@fastify/cors": "^8.3.0",
     "@fastify/multipart": "^7.7.3",
-    "@prisma/client": "^5.3.0",
+    "@prisma/client": "^5.3.1",
+    "ai": "^2.2.12",
     "fastify": "^4.23.1",
     "openai": "^4.6.0",
     "zod": "^3.22.2"
